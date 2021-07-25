@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*manu starts*/
+
+.menu-bg{
+    height: 80px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.menu-bg .menu{
+    height: 80px;
+    /* background-color: bisque; */
+}
+
+.menu-bg .menu .logo{
+    height: 80px;
+    width: 140px;
+    /* background-color: burlywood; */
+    float: left;
+}
+
+.menu-bg .menu .logo img{
+    padding-top: 15px;
+    float: left;
+}
+
+.menu-bg .menu .logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    float: left;
+    color: #4aa3cc;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu-bg .menu .menu-list{
+    width: 820px;
+    height: 80px;
+    /* background-color: coral; */
+    float: left;
+}
+
+.menu-bg .menu .menu-list ul{
+    float: right;
+}
+.menu-bg .menu .menu-list ul li{
+    float: left;
+    padding-left: 40px;
+}
+
+.menu-bg .menu .menu-list ul li a{
+    line-height: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all ease 0.7s;
+    display: block;
+    transform: scale(1);
+}
+
+.menu-bg .menu .menu-list ul li a:hover{
+    color: #00e0d0;
+    transform: scale(1.4);
+}
+
+/*manu ends*/
+
+
+
+
+
+
+/*banner starts*/
+
+.banner-bg{
+    height: 770px;
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-bg::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(9, 5, 47, 0.9), rgba(49, 29, 94, 0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-bg .banner{
+    height: 770px;
+    text-align: center;
+}
+
+.banner-bg .banner h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 230px;
+    padding-bottom: 30px;
+}
+
+.banner-bg .banner .line{
+    border: 1px solid #00e0d0;
+    width: 50px;
+    margin: auto;
+}
+
+.banner-bg .banner p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 24px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 73px;
+}
+
+.banner-bg .banner a{
+    border: 2px solid #00e0d0;
+    border-radius: 4%;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px;
+    transition: all ease 0.4s;
+    display: inline-block;
+    transform: scale(1);
+}
+
+.banner-bg .banner a:hover{
+    background-color: #00e0d0;
+    color: rgba(9, 5, 47, 0.9);
+    transform: scaleX(1.2);
+}
+
+.banner-bg .banner .dotbox{
+    padding-top: 120px;
+}
+/*banner ends*/
