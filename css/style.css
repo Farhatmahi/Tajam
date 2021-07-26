@@ -160,8 +160,8 @@ img{
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
-    padding: 15px;
-    transition: all ease 0.4s;
+    padding: 10px 15px;
+    transition: all ease 0.7s;
     display: inline-block;
     transform: scale(1);
 }
@@ -169,10 +169,114 @@ img{
 .banner-bg .banner a:hover{
     background-color: #00e0d0;
     color: rgba(9, 5, 47, 0.9);
-    transform: scaleX(1.2);
+    transform: scale(1.2);
 }
 
 .banner-bg .banner .dotbox{
     padding-top: 120px;
 }
 /*banner ends*/
+
+
+/*our story starts*/
+
+.ourstory-bg{
+    height: 435px;
+    /* background-color: #00e0d0; */
+}
+.ourstory-bg .ourstory{
+    height: 435px;
+    /* background-color: aliceblue; */
+}
+
+.ourstory-bg .ourstory .ourstory-img{
+    height: 405px;
+    width: 410px;
+    padding-top: 100px;
+    padding-right: 100px;
+    float: left;
+}
+
+.ourstory-bg .ourstory .ourstory-text{
+    width: 550px;
+    float: left;
+}
+
+.ourstory-bg .ourstory h1{
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #413d4b;
+    padding-top: 72px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+}
+.ourstory-bg .ourstory p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    line-height: 22px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+}
+.ourstory-bg .ourstory a{
+    border: 2px solid #00e0d0;
+    border-radius: 4%;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: all ease 0.7s;
+    display: inline-block;
+
+}
+.ourstory-bg .ourstory a:hover{
+    background-color: #00e0d0;
+    color: rgba(9, 5, 47, 0.9);
+}
+/*our story ends*/
+
+/*watch our story starts*/
+
+.watchourstory-bg{
+    height: 550px;
+    background: url(/images/city.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+.watchourstory-bg::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(9, 5, 47, 0.9), rgba(49, 29, 94, 0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.watchourstory-bg .watchourstory{
+    height: 550px;
+    text-align: center;
+}
+
+.watchourstory-bg .watchourstory img{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 22px 25px;
+    margin-top: 205px;
+}
+
+.watchourstory-bg .watchourstory h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+}
+/*watch our story ends*/
